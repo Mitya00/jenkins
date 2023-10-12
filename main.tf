@@ -1,6 +1,6 @@
 # Create a VPC
 resource "aws_vpc" "example" {
-    cidr_block = "10.0.0.0/16"
+    cidr_block = "10.1.0.0/16"
 }
 
 # Create an internet gateway
@@ -27,5 +27,5 @@ resource "aws_route_table_association" "example" {
 # Create a subnet
 resource "aws_subnet" "example" {
     vpc_id     = aws_vpc.example.id
-    cidr_block = "10.0.1.0/24"
+    cidr_block = "10.1.1.0/24"
 }
