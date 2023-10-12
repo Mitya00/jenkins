@@ -2,6 +2,7 @@
 resource "aws_vpc" "example" {
     cidr_block = "10.1.0.0/16"
 }
+#hello from dev enf 
 
 # Create an internet gateway
 resource "aws_internet_gateway" "example" {
