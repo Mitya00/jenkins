@@ -3,7 +3,7 @@ resource "aws_vpc" "example" {
     cidr_block = "10.1.0.0/16"
 }fdfdfdfdfdfd
 #hello from dev enf 
-dfdfdf
+
 # Create an internet gateway
 resource "aws_internet_gateway" "example" {
     vpc_id = aws_vpc.example.id
