@@ -1,4 +1,4 @@
-pipeline{
+awpipeline{
 
  agent  any//{ label 'Akmaral'}
  stages {
@@ -50,4 +50,5 @@ pipeline{
     }
  }
 }
+dfdfds fsdafdsfadsfasd
   
